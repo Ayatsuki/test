@@ -1,2 +1,3 @@
-const myHeading = document.querySelector('h1');
-myHeading.textContent = 'Hello world!';
+let Heading;
+const Heading = document.querySelector('h1');
+Heading.textContent = 'Hello world!';
