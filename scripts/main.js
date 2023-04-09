@@ -1,2 +1,10 @@
-const Heading = document.querySelector('h1');
-Heading.textContent = 'Hello world!';
+const myImage = document.querySelector('test-img')
+
+myImage.onclick = () => {
+    const mySrc = myImage.getAttribute('src');
+    if (mySrc = 'images/img-blue.png'){
+        myImage.setAttribute('src','images/img-purple.png');
+    }else{
+        myImage.setAttribute('src','images/img-blue.png');
+    }
+}
